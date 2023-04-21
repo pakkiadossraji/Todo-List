@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(to bottom right, #af5e94 , #5949f2);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.list-div{
+    padding: 3px 22px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: #eaeaea;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+#dlt-btn{
+    color: red;
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 34px;
+    width: 92px;
+}
+.parent-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7%;
+    margin-left: 65px;
+    margin-top: 100px;
+}
+.input-div{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 174px;
+}
+.header{
+    background-color:#eaeaea;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0px 32px;
+}
+.add-btn{
+    color: green;
+    border: 1px solid green;
+    background: transparent;
+    padding: 3px 22px;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 0px 4px 4px 0px;
+}
+.input-flex{
+    padding: 37px 31px;
+    display: flex;
+    background-color: rgb(246, 243, 255);
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+}
+.Enter-data{
+    padding: 4px 10px;
+    border-color: #eaeaea;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+}
+#dlt-btn:hover{
+    background-color: red;
+    color: white;
+}
+.add-btn:hover{
+    background-color: green;
+    color: white;
+}
+/* .fa-check:before {
+    content: "\f00c";
+} */
+/* .new-list::after{
+    content: '\2713';
+    position: absolute;
+    left: 500px;
+    color: rgb(69, 140, 69);
+    font-weight: 800;
+    
+} */
+.flex{
+    width: 50%;
+    background-color: white;
+}
+.new-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.append-list{
+    height: auto;
+}
+.cancel{
+    padding: 10px;
+    float: right;
+    margin-right: 22px;
+    color: red;
+    background: none;
+    border: none;
+    position: absolute;
+    left: 565px;
+}
+.cancel::after{
+    content: '\274C';
+}
+.tick{
+    padding: 10px;
+    float: right;
+    margin-right: 22px;
+    color: rgb(86, 190, 105);  
+    background: none;
+    border: none;
+    position: absolute;
+    left: 530px;
+   
+}
+.tick::after{
+    content: '\2713';
+    font-size: 20px;
+    font-weight: 900;
+}
+.strike{
+    text-decoration: line-through;
+}
